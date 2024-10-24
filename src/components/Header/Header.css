@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+.body{
+    height: 5rem;
+    padding: 0 20px;
+    font-size: 1.2rem;
+    background: transparent;
+    font-family: 'space grotesk',sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.remainspace{
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+    font-family: "Roboto Mono", monospace;
+}
+ul{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+li{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+li:hover{
+    color: rgb(87, 87, 87);
+
+}
+.btns{
+    cursor: pointer;
+    width: 188px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.loginbtn{
+    width: 70px;
+    height: 40px;
+    background-color: transparent;
+    border: transparent;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.getstartedbtn{
+    height: 40px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 400;
+    background-color: rgb(255 219 54);
+}
+.getstartedbtn:hover{
+    background-color: black;
+    color: rgb(255 219 54);
+}

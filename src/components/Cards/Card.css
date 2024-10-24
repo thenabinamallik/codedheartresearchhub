@@ -1,0 +1,25 @@
+.card{
+    height: 600px;
+    width: 300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+    padding: 1.5rem;
+    
+}
+.card img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin: 0 0 20px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.card h1{
+    font-size: 32px;
+}
+.card p{
+    text-align: justify;
+    font-size: 16px;
+}
